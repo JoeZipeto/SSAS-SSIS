@@ -1,0 +1,257 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ad5a9226-6954-454e-9203-8959f82ca81e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FinalProjectFinalversion</ID>
+  <Name>FinalProjectFinalversion</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-277" scrolltop="-5315" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13348" y="21392" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Time" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4220" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00007c10000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DepartmentDim" left="6401" top="545" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1416" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000088050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DepartmentDim" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="EmployeeFact" left="6725" top="3947" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3109" height="6349" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000250c0000cd180000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_EmployeeFact" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8701" top="1404" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="1000" height="2843" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_EmployeeFact_DepartmentDim]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="15" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9401" y="1803" />
+                    <point x="9001" y="1803" />
+                    <point x="9001" y="2822" />
+                    <point x="9379" y="2822" />
+                    <point x="9379" y="3947" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-277</DiagramViewPortLeft>
+            <DiagramViewPortTop>-5315</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Employee DM</DataSourceID>
+  <Schema>
+    <xs:schema id="FinalProjectFinalversion" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="FinalProjectFinalversion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c5c54b17-e3b4-4aee-8723-8dc2b5e95c92" msprop:AllowGen="True">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Time" msprop:design-time-name="4a43d432-ac99-4654-bea1-82c93fecfcc2" msprop:FriendlyName="Time" msprop:DbSchemaName="dbo" msprop:AllowGen="True" msprop:TableType="Table" msprop:DbTableName="Time">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date" msprop:design-time-name="bbb301ac-11c8-4025-883a-e22a3d58796c" msprop:FriendlyName="PK_Date" msprop:DbColumnName="PK_Date" msprop:AllowGen="True" type="xs:dateTime" />
+                  <xs:element name="Date_Name" msprop:design-time-name="c5b21b64-50bb-411e-a421-0a9b6291894c" msprop:FriendlyName="Date_Name" msprop:DbColumnName="Date_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:design-time-name="5dda2550-5891-420e-b91e-54b964ac444c" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year_Name" msprop:design-time-name="0c75cf6f-20d9-4b0b-83c4-fefcdd2a41c1" msprop:FriendlyName="Year_Name" msprop:DbColumnName="Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:design-time-name="50444732-dec7-4427-938f-7f05f35f5766" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Quarter_Name" msprop:design-time-name="3fa978ae-5549-4b91-bb48-6f1b507f60d6" msprop:FriendlyName="Quarter_Name" msprop:DbColumnName="Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month" msprop:design-time-name="3c7f457e-152d-4dd7-a2aa-ee0430e1d98a" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Month_Name" msprop:design-time-name="616e4f66-76f4-4c56-ab18-5202146c65f8" msprop:FriendlyName="Month_Name" msprop:DbColumnName="Month_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Year" msprop:design-time-name="6fe67887-c595-4e4a-85d9-7ccda7a1dd5c" msprop:FriendlyName="Day_Of_Year" msprop:DbColumnName="Day_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Year_Name" msprop:design-time-name="fcdbf98c-308a-4c4d-bbbb-b04edcfd9f10" msprop:FriendlyName="Day_Of_Year_Name" msprop:DbColumnName="Day_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Quarter" msprop:design-time-name="85aaa924-9585-4b12-a3c3-cceea1734b28" msprop:FriendlyName="Day_Of_Quarter" msprop:DbColumnName="Day_Of_Quarter" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Quarter_Name" msprop:design-time-name="4dfeb77d-32d2-45ed-b1e3-e09a4c12c309" msprop:FriendlyName="Day_Of_Quarter_Name" msprop:DbColumnName="Day_Of_Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Month" msprop:design-time-name="38929c63-e6ee-4aa8-abfb-6605880d6dae" msprop:FriendlyName="Day_Of_Month" msprop:DbColumnName="Day_Of_Month" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Month_Name" msprop:design-time-name="aa1d5a0b-5f3b-42b1-8e97-64b4a3960582" msprop:FriendlyName="Day_Of_Month_Name" msprop:DbColumnName="Day_Of_Month_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month_Of_Year" msprop:design-time-name="8114507b-d39e-4127-9855-973ea4513e0f" msprop:FriendlyName="Month_Of_Year" msprop:DbColumnName="Month_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_Of_Year_Name" msprop:design-time-name="4271be2a-dbbd-467b-937d-58480d0b679c" msprop:FriendlyName="Month_Of_Year_Name" msprop:DbColumnName="Month_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month_Of_Quarter" msprop:design-time-name="76127c00-d7c3-491a-a151-acd952dee1a4" msprop:FriendlyName="Month_Of_Quarter" msprop:DbColumnName="Month_Of_Quarter" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_Of_Quarter_Name" msprop:design-time-name="54d36fd1-5204-4aa2-8859-f121f107745e" msprop:FriendlyName="Month_Of_Quarter_Name" msprop:DbColumnName="Month_Of_Quarter_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter_Of_Year" msprop:design-time-name="9ac1af0c-a055-4237-9c6a-a1088e377198" msprop:FriendlyName="Quarter_Of_Year" msprop:DbColumnName="Quarter_Of_Year" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
+                  <xs:element name="Quarter_Of_Year_Name" msprop:design-time-name="e7b2e104-4e2e-479c-a1b8-1c98f4c4923e" msprop:FriendlyName="Quarter_Of_Year_Name" msprop:DbColumnName="Quarter_Of_Year_Name" msprop:AllowGen="True" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DepartmentDim" msprop:design-time-name="70c11c93-e43b-49ad-9de7-334dfcbd055f" msprop:DbTableName="DepartmentDim" msprop:FriendlyName="DepartmentDim" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DepartmentID" msprop:design-time-name="42c2fa8a-b041-4509-a866-26d05b1d4d71" msprop:DbColumnName="DepartmentID" msprop:FriendlyName="DepartmentID" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="77255bb4-e8f4-43ae-9ed1-7f313af53a02" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_EmployeeFact" msprop:design-time-name="d797210f-091f-4389-86f3-c7ffd2107718" msprop:DbTableName="EmployeeFact" msprop:FriendlyName="EmployeeFact" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SalariedFlag" msprop:design-time-name="23023376-1819-42cd-bb59-d418367e8233" msprop:DbColumnName="SalariedFlag" msprop:FriendlyName="SalariedFlag" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="VacationHours" msprop:design-time-name="679ea6ef-c630-451e-a74d-2e619afe0fc3" msprop:DbColumnName="VacationHours" msprop:FriendlyName="VacationHours" type="xs:int" minOccurs="0" />
+                  <xs:element name="SickLeaveHours" msprop:design-time-name="295d9f2d-9eee-48cc-b29c-2c82b914b54a" msprop:DbColumnName="SickLeaveHours" msprop:FriendlyName="SickLeaveHours" type="xs:int" minOccurs="0" />
+                  <xs:element name="Gender" msprop:design-time-name="39c6a41c-4920-45ba-a053-c03047ea8573" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Rate" msprop:design-time-name="fd2b3806-dcdd-44f5-84f0-258f8fa0b391" msprop:DbColumnName="Rate" msprop:FriendlyName="Rate" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Name" msprop:design-time-name="cc704738-745b-47d1-89a9-fcfe987e071d" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Male" msprop:design-time-name="a2f08b1a-2059-47cb-9816-20871f46a74a" msprop:DbColumnName="Male" msprop:FriendlyName="Male" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="Female" msprop:design-time-name="5675032c-5ea1-45db-9b9d-f41aeb2e23c4" msprop:DbColumnName="Female" msprop:FriendlyName="Female" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="YearsWorked" msprop:design-time-name="6c1ccc05-fc1a-452c-be26-e544aefbf492" msprop:DbColumnName="YearsWorked" msprop:FriendlyName="YearsWorked" type="xs:int" minOccurs="0" />
+                  <xs:element name="Salaried" msprop:design-time-name="3aca3107-339b-4c5a-b171-3c1e010265d6" msprop:DbColumnName="Salaried" msprop:FriendlyName="Salaried" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="Hourly" msprop:design-time-name="e0b6d281-0de7-4bc0-bd5b-2698701dab1a" msprop:DbColumnName="Hourly" msprop:FriendlyName="Hourly" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="FK_DepartmentID" msprop:design-time-name="4eaca396-a14f-4ed9-b136-ea327b361155" msprop:DbColumnName="FK_DepartmentID" msprop:FriendlyName="FK_DepartmentID" type="xs:int" minOccurs="0" />
+                  <xs:element name="BusinessEnitityID" msprop:design-time-name="4d607212-8c6a-491c-bc67-6bb64b108044" msprop:DbColumnName="BusinessEnitityID" msprop:FriendlyName="BusinessEnitityID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="PK_Time" msprop:AllowGen="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Time" />
+          <xs:field xpath="Date" />
+        </xs:unique>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DepartmentDim" />
+          <xs:field xpath="DepartmentID" />
+        </xs:unique>
+        <xs:keyref name="FK_EmployeeFact_DepartmentDim" refer="Constraint1">
+          <xs:selector xpath=".//dbo_EmployeeFact" />
+          <xs:field xpath="FK_DepartmentID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <FinalProjectFinalversion xmlns="" />
+  </Schema>
+</DataSourceView>

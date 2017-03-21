@@ -1,0 +1,102 @@
+﻿<Infos>
+  <Item name="FinalProjectFinalversion.dsv">
+    <Time>636255454379510183</Time>
+    <Hash length="20">
+      <b>68</b>
+      <b>44</b>
+      <b>9</b>
+      <b>198</b>
+      <b>45</b>
+      <b>179</b>
+      <b>91</b>
+      <b>187</b>
+      <b>206</b>
+      <b>126</b>
+      <b>1</b>
+      <b>154</b>
+      <b>105</b>
+      <b>39</b>
+      <b>220</b>
+      <b>154</b>
+      <b>96</b>
+      <b>75</b>
+      <b>25</b>
+      <b>16</b>
+    </Hash>
+  </Item>
+  <Item name="FinalProjectFinalversion.database">
+    <Time>636255446330819029</Time>
+    <Hash length="20">
+      <b>185</b>
+      <b>97</b>
+      <b>102</b>
+      <b>63</b>
+      <b>218</b>
+      <b>73</b>
+      <b>6</b>
+      <b>188</b>
+      <b>237</b>
+      <b>184</b>
+      <b>69</b>
+      <b>98</b>
+      <b>213</b>
+      <b>100</b>
+      <b>74</b>
+      <b>36</b>
+      <b>80</b>
+      <b>126</b>
+      <b>233</b>
+      <b>88</b>
+    </Hash>
+  </Item>
+  <Item name="Time.dim">
+    <Time>636255454379736529</Time>
+    <Hash length="20">
+      <b>36</b>
+      <b>9</b>
+      <b>7</b>
+      <b>82</b>
+      <b>184</b>
+      <b>46</b>
+      <b>31</b>
+      <b>160</b>
+      <b>14</b>
+      <b>224</b>
+      <b>131</b>
+      <b>229</b>
+      <b>226</b>
+      <b>15</b>
+      <b>173</b>
+      <b>65</b>
+      <b>255</b>
+      <b>19</b>
+      <b>224</b>
+      <b>146</b>
+    </Hash>
+  </Item>
+  <Item name="Employee DM.ds">
+    <Time>636255404851425547</Time>
+    <Hash length="20">
+      <b>253</b>
+      <b>211</b>
+      <b>120</b>
+      <b>57</b>
+      <b>67</b>
+      <b>203</b>
+      <b>120</b>
+      <b>16</b>
+      <b>111</b>
+      <b>202</b>
+      <b>6</b>
+      <b>64</b>
+      <b>51</b>
+      <b>51</b>
+      <b>196</b>
+      <b>173</b>
+      <b>6</b>
+      <b>237</b>
+      <b>222</b>
+      <b>106</b>
+    </Hash>
+  </Item>
+</Infos>
