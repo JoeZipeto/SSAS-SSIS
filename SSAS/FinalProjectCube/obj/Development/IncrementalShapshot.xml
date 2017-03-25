@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>FinalProjectCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>7pFa5GAjHw8mVTHOHapKXImGzcU=3/18/2017 1:21:01 AM3/18/2017 1:21:01 AM</TimeStamp>
+        <ID>
+          <String>Production DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>SoEDJzscxMLXTKvbeA/QolxuhFs=3/18/2017 1:21:26 AM3/18/2017 1:21:26 AM</TimeStamp>
+        <ID>
+          <String>Sales DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RKJSyngg6A/d6IyrnODmkdYaPXs=3/21/2017 6:06:09 PM3/19/2017 11:22:43 PM</TimeStamp>
+        <ID>
+          <String>Employee DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0PbkeR6CadofECNjcXy8K6p5CEE=3/25/2017 6:49:27 PM3/21/2017 6:27:31 PM</TimeStamp>
+        <ID>
+          <String>FinalProjectCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TKfzQtYIPEQvGq46ww0g+OtWIHI=3/21/2017 6:36:12 PM3/21/2017 6:26:53 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TKL5/KYJUx9JsZ7neyYeBwyzCrY=3/25/2017 6:46:44 PM3/25/2017 6:31:26 PM</TimeStamp>
+        <ID>
+          <String>Department Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8m8hisr58WneapnpnG9jpto0IwE=3/25/2017 6:46:04 PM3/25/2017 6:31:26 PM</TimeStamp>
+        <ID>
+          <String>Territory Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SlfR+iFFyYrX1CDEQirepB3oS9Q=3/25/2017 6:46:44 PM3/25/2017 6:31:26 PM</TimeStamp>
+        <ID>
+          <String>Model Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GOzubegs81fU2VX2hOIQjIrWtfY=3/25/2017 6:46:44 PM3/25/2017 6:31:26 PM</TimeStamp>
+        <ID>
+          <String>Product Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SROuizRBW0XXeccc+8IP2fEbX90=3/25/2017 6:49:27 PM3/25/2017 6:31:26 PMTA4eE4guXodsiTzQ7hTWhXUgQGs=3/25/2017 6:31:26 PM3/25/2017 6:31:26 PM</TimeStamp>
+        <ID>
+          <String>FinalProjectCube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ZHWpgrRY9G/uqgHqRkKhz2y8Ot8=3/25/2017 4:50:36 PM3/18/2017 1:20:02 AM</TimeStamp>
+      <ID>
+        <String>FinalProjectCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-03-25T22:49:31.326667Z</LastDeployed>
+</DeploymentSnapshot>
